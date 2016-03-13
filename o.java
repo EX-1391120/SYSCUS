@@ -100,7 +100,7 @@ public final class o
         }
 /*
 FUTURE ADDITION:
-"!FA"Force Admin.
+"!FA" Force Admin.
 "!Sync" & "!UnSync" + & - Sepcified User in / to groups.
 "!Wipe" to remove all non-Admin.
 */
