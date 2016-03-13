@@ -105,7 +105,7 @@ FUTURE ADDITION:
 "!Wipe" to remove all non-Admin.
 */
 /*End Funtions*/
-/*help Commands*/
+/*HELP Commands*/
         else if (str.equals("!help"))
         {
           localObject = "All commands,\nDevs & info: !Commands\nFunctions: !Commands2\nArt: !Commands3\nWords: !Commands4\nCustom Commands: !Commands5\nHELP:\n!HELP\n\nHELP:\!TechSupport";
@@ -114,11 +114,11 @@ FUTURE ADDITION:
         {
           localObject = "Tech Support at your service!\n\nKik.me/TailstheFlyingFox";
 		}
-/*END help Commands*/
+/*END HELP Commands*/
 /*Art Commands*/
         else if (str.equals("!commands3"))
 		{
-          localObject = "AAll commands,\nDevs & info: !Commands\nFunctions: !Commands2\nArt: !Commands3\nWords: !Commands4\nCustom Commands: !Commands5\nHELP: !HELP\n\nArt Commands:\n!Dog\n!Spongebob\n!Patrick\n!Simpson\n!Heart\n!Sword\n!Centipede\n!KEK\n!Chase\n!Spooki\n!Loading\n!Chess\n!Coffee\n!iPhone\n!Smile\n!Sad\n!Peace\n!FuckUp\n!Fab\n!Lurk";
+          localObject = "All commands,\nDevs & info: !Commands\nFunctions: !Commands2\nArt: !Commands3\nWords: !Commands4\nCustom Commands: !Commands5\nHELP: !HELP\n\nArt Commands:\n!Dog\n!Spongebob\n!Patrick\n!Simpson\n!Heart\n!Sword\n!Centipede\n!KEK\n!Chase\n!Spooki\n!Loading\n!Chess\n!Coffee\n!iPhone\n!Smile\n!Sad\n!Peace\n!FuckUp\n!Fab\n!Lurk";
         }
         else if (str.equals("!dog"))
         {
