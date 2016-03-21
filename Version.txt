@@ -1,0 +1,26 @@
+SYSCUSKik
+Version ([V]): C(omposition[#])&S(tring Edition[#])&S(cript Edition[#])&G(raphical Edition[#])&M(ode[@]) = C.S.S.G.M | #.#.#.#.@
+V = 2.1.1.1.EX
+
+preferences_root.xml
+#
+
+public.xml:
+#320
+#321
+#1003
+#1684
+#1854
+
+strings.xml:
+#642
+#644
+#702
+#792
+
+RES > +Files
++icon_syscuskik_settings.png
++icon_syscuskik_settings_active.png
++icon_syscuskik_settings_selector.xml
+
+NOTE: Check for other additions and changes, make notes as needed.
