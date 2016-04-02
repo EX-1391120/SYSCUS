@@ -98,7 +98,7 @@ public final class q
 Vocaloids, copy the following and REPLACE the "[]" with your information:
         else if (str.equals("![]"))
         {
-          localObject = "Vocaloid [] Le♂n:\n\nKik.me/[]";
+          localObject = " ";
         }
 */
         else if (str.equals("!vleon"))
