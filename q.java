@@ -124,20 +124,6 @@ Vocaloids, copy the following and REPLACE the "[]" with your information:
 /*		else if (str.equals("!about"))
 // Possible methods for 3 Messages in 1?
 // Array List Method:
-		{
-            public class Temperatures {
-	            public static void main(String[] args) {
-                    ArrayList<Integer> weeklyTemperatures = new ArrayList<Integer>();
-                    weeklyTemperatures.add(78);
-                    weeklyTemperatures.add(67);
-                    weeklyTemperatures.add(89);
-                    weeklyTemperatures.add(94);
-                    weeklyTemperatures.add(2, 111);
-		            for (int j = 4; j < weeklyTemperatures.size(); j++) {
-                         System.out.println( weeklyTemperatures.get(j) );
-                    }
-            	}
-            }
 /*
 NOTE: The Array List method may require adding/modifying the following information at the specified lines to execute (input the information in exact order to avoid confusion. modified/added information within currently existing lines will me enclosed with "[...]"; the lines will be typed out for convenience.):
 
