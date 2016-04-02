@@ -1,0 +1,349 @@
+html {
+	background-color: black;
+}
+body {
+	background-color: black;
+}
+form {
+	position: static;
+	margin: 0;
+	min-width: 196px;
+	width: 100%;
+	max-height: 2000px;
+	max-width: 100%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(128,128,128);
+}
+fieldset {
+	min-width: 172px;
+	color: white;
+}
+.frame {
+	position: relative;
+	margin: 3px;
+	min-width: 172px;
+	max-width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	padding: 6.6px;
+}
+.border {
+	position: static;
+	min-width: 144px;
+	max-width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 24px;
+	border-color: cyan;
+}
+.container {
+	min-width: 108px;
+	max-width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 24px;
+	border-color: cyan;
+}
+.container {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 24px;
+	border-color: cyan;
+}
+legend[style=radial] {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 48px;
+	border-color: cyan;
+	padding: 5px;
+	background-color: blue;
+	color: cyan;
+}
+h3 {
+	color: white;
+	-o-moz-webkit-animation-name: rainbow;
+	-o-moz-webkit-animation-duration: 24s;
+	-o-moz-webkit-animation-iteration-count: infinite;
+	animation-name: rainbow;
+	animation-duration: 24s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes rainbow {
+	0% {
+	color: rgb(0,0,0);
+	text-shadow: 0 0 3px rgb(255,255,255), 0 0 3px rgb(255,255,255);
+	}
+	7.142857142857143% {
+	color: rgb(255,0,0);
+	text-shadow: 0 0 3px rgb(0,255,255), 0 0 3px rgb(0,255,255);
+	}
+	14.28571428571429% {
+	color: rgb(255,128,0);
+	text-shadow: 0 0 3px rgb(0,128,255), 0 0 3px rgb(0,128,255);
+	}
+	21.42857142857143% {
+	color: rgb(255,255,0);
+	text-shadow: 0 0 3px rgb(0,0,255), 0 0 3px rgb(0,0,255);
+	}
+	28.57142857142857% {
+	color: rgb(128,255,0);
+	text-shadow: 0 0 3px rgb(128,0,255), 0 0 3px rgb(128,0,255);
+	}
+	35.71428571428571% {
+	color: rgb(0,255,0);
+	text-shadow: 0 0 3px rgb(255,0,255), 0 0 3px rgb(255,0,255);
+	}
+	42.85714285714286% {
+	color: rgb(0,255,128);
+	text-shadow: 0 0 3px rgb(255,0,128), 0 0 3px rgb(255,0,128);
+	}
+	50% {
+	color: rgb(0,255,255);
+	text-shadow: 0 0 3px rgb(255,0,0), 0 0 3px rgb(255,0,0);
+	}
+	57.14285714285714% {
+	color: rgb(0,128,255);
+	text-shadow: 0 0 3px rgb(255,128,0), 0 0 3px rgb(255,128,0);
+	}
+	64.28571428571429% {
+	color: rgb(0,0,255);
+	text-shadow: 0 0 3px rgb(255,255,0), 0 0 3px rgb(255,255,0);
+	}
+	71.42857142857143% {
+	color: rgb(128,0,255);
+	text-shadow: 0 0 3px rgb(128,255,0), 0 0 3px rgb(128,255,0);
+	}
+	78.57142857142857% {
+	color: rgb(255,0,255);
+	text-shadow: 0 0 3px rgb(0,255,0), 0 0 3px rgb(0,255,0);
+	}
+	85.71428571428572% {
+	color: rgb(255,0,128);
+	text-shadow: 0 0 3px rgb(0,255,128), 0 0 3px rgb(0,255,128);
+	}
+	92.85714285714286% {
+	color: rgb(255,255,255);
+	text-shadow: 0 0 3px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+	}
+	100% {
+	color: rgb(128,128,128);
+	text-shadow: 0 0 3px rgb(128,128,128), 0 0 3px rgb(128,128,128);
+	}
+}
+@keyframes rainbow {
+	0% {
+	color: rgb(0,0,0);
+	text-shadow: 0 0 3px rgb(255,255,255), 0 0 3px rgb(255,255,255);
+	}
+	7.142857142857143% {
+	color: rgb(255,0,0);
+	text-shadow: 0 0 3px rgb(0,255,255), 0 0 3px rgb(0,255,255);
+	}
+	14.28571428571429% {
+	color: rgb(255,128,0);
+	text-shadow: 0 0 3px rgb(0,128,255), 0 0 3px rgb(0,128,255);
+	}
+	21.42857142857143% {
+	color: rgb(255,255,0);
+	text-shadow: 0 0 3px rgb(0,0,255), 0 0 3px rgb(0,0,255);
+	}
+	28.57142857142857% {
+	color: rgb(128,255,0);
+	text-shadow: 0 0 3px rgb(128,0,255), 0 0 3px rgb(128,0,255);
+	}
+	35.71428571428571% {
+	color: rgb(0,255,0);
+	text-shadow: 0 0 3px rgb(255,0,255), 0 0 3px rgb(255,0,255);
+	}
+	42.85714285714286% {
+	color: rgb(0,255,128);
+	text-shadow: 0 0 3px rgb(255,0,128), 0 0 3px rgb(255,0,128);
+	}
+	50% {
+	color: rgb(0,255,255);
+	text-shadow: 0 0 3px rgb(255,0,0), 0 0 3px rgb(255,0,0);
+	}
+	57.14285714285714% {
+	color: rgb(0,128,255);
+	text-shadow: 0 0 3px rgb(255,128,0), 0 0 3px rgb(255,128,0);
+	}
+	64.28571428571429% {
+	color: rgb(0,0,255);
+	text-shadow: 0 0 3px rgb(255,255,0), 0 0 3px rgb(255,255,0);
+	}
+	71.42857142857143% {
+	color: rgb(128,0,255);
+	text-shadow: 0 0 3px rgb(128,255,0), 0 0 3px rgb(128,255,0);
+	}
+	78.57142857142857% {
+	color: rgb(255,0,255);
+	text-shadow: 0 0 3px rgb(0,255,0), 0 0 3px rgb(0,255,0);
+	}
+	85.71428571428572% {
+	color: rgb(255,0,128);
+	text-shadow: 0 0 3px rgb(0,255,128), 0 0 3px rgb(0,255,128);
+	}
+	92.85714285714286% {
+	color: rgb(255,255,255);
+	text-shadow: 0 0 3px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+	}
+	100% {
+	color: rgb(128,128,128);
+	text-shadow: 0 0 3px rgb(128,128,128), 0 0 3px rgb(128,128,128);
+	}
+}
+textarea.container {
+	position: relative;
+	min-height: 73px;
+	min-width: 108px;
+	max-height: 100px;
+	max-width: 1440.8px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 24px;
+	border-color: cyan;
+	padding: 12px;
+	background-color: blue;
+	color: cyan;
+	-o-moz-webkit--o-moz-transition: width 0.4s ease-in-out;
+	-o-moz-transition: width 0.4s ease-in-out;
+	-o-moz-webkit-animation-name: textboxrainbow;
+	-o-moz-webkit-animation-duration: 24s;
+	-o-moz-webkit-animation-iteration-count: infinite;
+	animation-name: textboxrainbow;
+	animation-duration: 24s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes textboxrainbow {
+	0% {
+	background-color: rgb(0,0,0);
+	}
+	7.142857142857143% {
+	background-color: rgb(255,0,0);
+	}
+	14.28571428571429% {
+	background-color: rgb(255,128,0);
+	}
+	21.42857142857143% {
+	background-color: rgb(255,255,0);
+	}
+	28.57142857142857% {
+	background-color: rgb(128,255,0);
+	}
+	35.71428571428571% {
+	background-color: rgb(0,255,0);
+	}
+	42.85714285714286% {
+	background-color: rgb(0,255,128);
+	}
+	50% {
+	background-color: rgb(0,255,255);
+	}
+	57.14285714285714% {
+	background-color: rgb(0,128,255);
+	}
+	64.28571428571429% {
+	background-color: rgb(0,0,255);
+	}
+	71.42857142857143% {
+	background-color: rgb(128,0,255);
+	}
+	78.57142857142857% {
+	background-color: rgb(255,0,255);
+	}
+	85.71428571428572% {
+	background-color: rgb(255,0,128);
+	}
+	92.85714285714286% {
+	background-color: rgb(255,255,255);
+	}
+	100% {
+	background-color: rgb(128,128,128);
+	}
+}
+@keyframes textboxrainbow {
+	0% {
+	background-color: rgb(0,0,0);
+	}
+	7.142857142857143% {
+	background-color: rgb(255,0,0);
+	}
+	14.28571428571429% {
+	background-color: rgb(255,128,0);
+	}
+	21.42857142857143% {
+	background-color: rgb(255,255,0);
+	}
+	28.57142857142857% {
+	background-color: rgb(128,255,0);
+	}
+	35.71428571428571% {
+	background-color: rgb(0,255,0);
+	}
+	42.85714285714286% {
+	background-color: rgb(0,255,128);
+	}
+	50% {
+	background-color: rgb(0,255,255);
+	}
+	57.14285714285714% {
+	background-color: rgb(0,128,255);
+	}
+	64.28571428571429% {
+	background-color: rgb(0,0,255);
+	}
+	71.42857142857143% {
+	background-color: rgb(128,0,255);
+	}
+	78.57142857142857% {
+	background-color: rgb(255,0,255);
+	}
+	85.71428571428572% {
+	background-color: rgb(255,0,128);
+	}
+	92.85714285714286% {
+	background-color: rgb(255,255,255);
+	}
+	100% {
+	background-color: rgb(128,128,128);
+	}
+}
+textarea.container:focus {
+	position: relative;
+	min-height: 73px;
+	min-width: 108px;
+	max-height: 100px;
+	max-width: 1440.8px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 24px;
+	border-color: red;
+	padding: 12px;
+	background-color: white;
+	color: rgb(0,255,0);
+	-o-moz-webkit--o-moz-transition: width 0.4s ease-in-out;
+	-o-moz-transition: width 0.4s ease-in-out;
+	-o-moz-webkit-animation-name: grayscale;
+	-o-moz-webkit-animation-duration: 10s;
+	-o-moz-webkit-animation-iteration-count: infinite;
+	animation-name: grayscale;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes grayscale {
+	0% {background-color: rgb(0,0,0);}
+	50% {background-color: rgb(128,128,128);}
+	75% {background-color: rgb(255,255,255);}
+	100% {background-color: rgb(128,128,128);}
+}
+@keyframes grayscale {
+	0% {background-color: rgb(0,0,0);}
+	50% {background-color: rgb(128,128,128);}
+	75% {background-color: rgb(255,255,255);}
+	100% {background-color: rgb(128,128,128);}
+}
+p {
+	color: white;
+}

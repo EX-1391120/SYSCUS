@@ -1,0 +1,429 @@
+<!DOCTYPE>
+<html>
+<!--
+#
+# If you have a 'split' directory installation, with configuration
+# files in ~/.i2p (Linux) or %APPDATA%\I2P (Windows), be sure to
+# edit the file in the configuration directory, NOT the install directory.
+#
+-->
+	<head>
+		<title>The SYSCUS RP Website</title>
+		<meta Charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="StyleSheet" href="CRS.css">
+<!--
+				<script type="Text/CSS" language="CascadingStyleSheet">
+			html {
+				background-color: black;
+			}
+			@-media only screen and (min-width: 200px), (max-width: 768px) {
+				width: 25%;
+			}
+			body {
+				background-color: black;
+			}
+			form {
+				position: static;
+				margin: 0;
+				min-width: 196px;
+				width: 100%;
+				max-height: 2000px;
+				max-width: 100%;
+				border-style: solid;
+				border-width: 3px;
+				border-color: rgb(128,128,128);
+			}
+			fieldset {
+				min-width: 172px;
+				color: white;
+			}
+			fieldset.frame {
+				position: relative;
+				margin: 3px;
+				min-width: 172px;
+				max-width: 100%;
+				border-style: solid;
+				border-width: 1px;
+				border-color: white;
+				padding: 6.6px;
+			}
+			fieldset.border {
+				position: static;
+				min-width: 144px;
+				max-width: 100%;
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 24px;
+				border-color: cyan;
+			}
+			fieldset.container {
+				min-width: 108px;
+				max-width: 100%;
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 24px;
+				border-color: cyan;
+			}
+			legend.container {
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 24px;
+				border-color: cyan;
+			}
+			legend[style=radial] {
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 48px;
+				border-color: cyan;
+				padding: 5px;
+				background-color: blue;
+				color: cyan;
+			}
+			legend h3 {
+				color: white;
+				-webkit-animation-name: rainbow;
+				-webkit-animation-duration: 24s;
+				-webkit-animation-iteration-count: infinite;
+				animation-name: rainbow;
+				animation-duration: 24s;
+				animation-iteration-count: infinite;
+			}
+			@-webkit-keyframes rainbow {
+				0% {
+				color: rgb(0,0,0);
+				text-shadow: 0 0 3px rgb(255,255,255), 0 0 3px rgb(255,255,255);]
+				}
+				7.142857142857143% {
+				color: rgb(255,0,0);
+				text-shadow: 0 0 3px rgb(0,255,255), 0 0 3px rgb(0,255,255);
+				}
+				14.28571428571429% {
+				color: rgb(255,128,0);
+				text-shadow: 0 0 3px rgb(0,128,255), 0 0 3px rgb(0,128,255);
+				}
+				21.42857142857143% {
+				color: rgb(255,255,0);
+				text-shadow: 0 0 3px rgb(0,0,255), 0 0 3px rgb(0,0,255);
+				}
+				28.57142857142857% {
+				color: rgb(128,255,0);
+				text-shadow: 0 0 3px rgb(128,0,255), 0 0 3px rgb(128,0,255);
+				}
+				35.71428571428571% {
+				color: rgb(0,255,0);
+				text-shadow: 0 0 3px rgb(255,0,255), 0 0 3px rgb(255,0,255);
+				}
+				42.85714285714286% {
+				color: rgb(0,255,128);
+				text-shadow: 0 0 3px rgb(255,0,128), 0 0 3px rgb(255,0,128);
+				}
+				50% {
+				color: rgb(0,255,255);
+				text-shadow: 0 0 3px rgb(255,0,0), 0 0 3px rgb(255,0,0);
+				}
+				57.14285714285714% {
+				color: rgb(0,128,255);
+				text-shadow: 0 0 3px rgb(255,128,0), 0 0 3px rgb(255,128,0);
+				}
+				64.28571428571429% {
+				color: rgb(0,0,255);
+				text-shadow: 0 0 3px rgb(255,255,0), 0 0 3px rgb(255,255,0);
+				}
+				71.42857142857143% {
+				color: rgb(128,0,255);
+				text-shadow: 0 0 3px rgb(128,255,0), 0 0 3px rgb(128,255,0);
+				}
+				78.57142857142857% {
+				color: rgb(255,0,255);
+				text-shadow: 0 0 3px rgb(0,255,0), 0 0 3px rgb(0,255,0);
+				}
+				85.71428571428572% {
+				color: rgb(255,0,128);
+				text-shadow: 0 0 3px rgb(0,255,128), 0 0 3px rgb(0,255,128);
+				}
+				92.85714285714286% {
+				color: rgb(255,255,255);
+				text-shadow: 0 0 3px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+				}
+				100% {
+				color: rgb(128,128,128);
+				text-shadow: 0 0 3px rgb(128,128,128), 0 0 3px rgb(128,128,128);
+				}
+			}
+			@keyframes rainbow {
+				0% {
+				color: rgb(0,0,0);
+				text-shadow: 0 0 3px rgb(255,255,255), 0 0 3px rgb(255,255,255);]
+				}
+				7.142857142857143% {
+				color: rgb(255,0,0);
+				text-shadow: 0 0 3px rgb(0,255,255), 0 0 3px rgb(0,255,255);
+				}
+				14.28571428571429% {
+				color: rgb(255,128,0);
+				text-shadow: 0 0 3px rgb(0,128,255), 0 0 3px rgb(0,128,255);
+				}
+				21.42857142857143% {
+				color: rgb(255,255,0);
+				text-shadow: 0 0 3px rgb(0,0,255), 0 0 3px rgb(0,0,255);
+				}
+				28.57142857142857% {
+				color: rgb(128,255,0);
+				text-shadow: 0 0 3px rgb(128,0,255), 0 0 3px rgb(128,0,255);
+				}
+				35.71428571428571% {
+				color: rgb(0,255,0);
+				text-shadow: 0 0 3px rgb(255,0,255), 0 0 3px rgb(255,0,255);
+				}
+				42.85714285714286% {
+				color: rgb(0,255,128);
+				text-shadow: 0 0 3px rgb(255,0,128), 0 0 3px rgb(255,0,128);
+				}
+				50% {
+				color: rgb(0,255,255);
+				text-shadow: 0 0 3px rgb(255,0,0), 0 0 3px rgb(255,0,0);
+				}
+				57.14285714285714% {
+				color: rgb(0,128,255);
+				text-shadow: 0 0 3px rgb(255,128,0), 0 0 3px rgb(255,128,0);
+				}
+				64.28571428571429% {
+				color: rgb(0,0,255);
+				text-shadow: 0 0 3px rgb(255,255,0), 0 0 3px rgb(255,255,0);
+				}
+				71.42857142857143% {
+				color: rgb(128,0,255);
+				text-shadow: 0 0 3px rgb(128,255,0), 0 0 3px rgb(128,255,0);
+				}
+				78.57142857142857% {
+				color: rgb(255,0,255);
+				text-shadow: 0 0 3px rgb(0,255,0), 0 0 3px rgb(0,255,0);
+				}
+				85.71428571428572% {
+				color: rgb(255,0,128);
+				text-shadow: 0 0 3px rgb(0,255,128), 0 0 3px rgb(0,255,128);
+				}
+				92.85714285714286% {
+				color: rgb(255,255,255);
+				text-shadow: 0 0 3px rgb(0,0,0), 0 0 3px rgb(0,0,0);
+				}
+				100% {
+				color: rgb(128,128,128);
+				text-shadow: 0 0 3px rgb(128,128,128), 0 0 3px rgb(128,128,128);
+				}
+			}
+			textarea.container {
+				position: relative;
+				min-height: 73px;
+				min-width: 108px;
+				max-height: 100px;
+				max-width: 1440.8px;
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 24px;
+				border-color: cyan;
+				padding: 12px;
+				background-color: blue;
+				color: cyan;
+				-webkit-transition: width 0.4s ease-in-out;
+				transition: width 0.4s ease-in-out;
+				-webkit-animation-name: textboxrainbow;
+				-webkit-animation-duration: 24s;
+				-webkit-animation-iteration-count: infinite;
+				animation-name: textboxrainbow;
+				animation-duration: 24s;
+				animation-iteration-count: infinite;
+			}
+			@-webkit-keyframes textboxrainbow {
+				0% {
+				background-color: rgb(0,0,0);
+				}
+				7.142857142857143% {
+				background-color: rgb(255,0,0,);
+				}
+				14.28571428571429% {
+				background-color: rgb(255,128,0);
+				}
+				21.42857142857143% {
+				background-color: rgb(255,255,0);
+				}
+				28.57142857142857% {
+				background-color: rgb(128,255,0);
+				}
+				35.71428571428571% {
+				background-color: rgb(0,255,0);
+				}
+				42.85714285714286% {
+				background-color: rgb(0,255,128);
+				}
+				50% {
+				background-color: rgb(0,255,255);
+				}
+				57.14285714285714% {
+				background-color: rgb(0,128,255);
+				}
+				64.28571428571429% {
+				background-color: rgb(0,0,255);
+				}
+				71.42857142857143% {
+				background-color: rgb(128,0,255);
+				}
+				78.57142857142857% {
+				background-color: rgb(255,0,255);
+				}
+				85.71428571428572% {
+				background-color: rgb(255,0,128);
+				}
+				92.85714285714286% {
+				background-color: rgb(255,255,255);
+				}
+				100% {
+				background-color: rgb(128,128,128);
+				}
+			}
+			@keyframes textboxrainbow {
+				0% {
+				background-color: rgb(0,0,0);
+				}
+				7.142857142857143% {
+				background-color: rgb(255,0,0,);
+				}
+				14.28571428571429% {
+				background-color: rgb(255,128,0);
+				}
+				21.42857142857143% {
+				background-color: rgb(255,255,0);
+				}
+				28.57142857142857% {
+				background-color: rgb(128,255,0);
+				}
+				35.71428571428571% {
+				background-color: rgb(0,255,0);
+				}
+				42.85714285714286% {
+				background-color: rgb(0,255,128);
+				}
+				50% {
+				background-color: rgb(0,255,255);
+				}
+				57.14285714285714% {
+				background-color: rgb(0,128,255);
+				}
+				64.28571428571429% {
+				background-color: rgb(0,0,255);
+				}
+				71.42857142857143% {
+				background-color: rgb(128,0,255);
+				}
+				78.57142857142857% {
+				background-color: rgb(255,0,255);
+				}
+				85.71428571428572% {
+				background-color: rgb(255,0,128);
+				}
+				92.85714285714286% {
+				background-color: rgb(255,255,255);
+				}
+				100% {
+				background-color: rgb(128,128,128);
+				}
+			}
+			textarea.container:focus {
+				position: relative;
+				min-height: 73px;
+				min-width: 108px;
+				max-height: 100px;
+				max-width: 1440.8px;
+				border-style: solid;
+				border-width: 3px;
+				border-radius: 24px;
+				border-color: red;
+				padding: 12px;
+				background-color: white;
+				color: rgb(0,255,0);
+				-webkit-transition: width 0.4s ease-in-out;
+				transition: width 0.4s ease-in-out;
+				-webkit-animation-name: grayscale;
+				-webkit-animation-duration: 10s;
+				-webkit-animation-iteration-count: infinite;
+				animation-name: grayscale;
+				animation-duration: 10s;
+				animation-iteration-count: infinite;
+			}
+			@-webkit-keyframes grayscale {
+				0% {background-color: rgb(0,0,0);}
+				50% {background-color: rgb(128,128,128);}
+				75% {background-color: rgb(255,255,255);}
+				100% {background-color: rgb(128,128,128);}
+			}
+			@keyframes grayscale {
+				0% {background-color: rgb(0,0,0);}
+				50% {background-color: rgb(128,128,128);}
+				75% {background-color: rgb(255,255,255);}
+				100% {background-color: rgb(128,128,128);}
+			}
+			p {
+				color: white;
+			}
+		</script>
+-->
+	</head>
+	<body>
+		<form>
+			<fieldset class="frame">
+				<legend><h3>Character Registration</h3></legend>
+					<br ></>
+					<p>(<u>NOTE = THINGS THAT HAVE "#", DO NOT FILL OUT</u>)</p>
+					<br ></>
+					<fieldset class="border">
+						<fieldset class="container">
+							<legend class="container" style="radial">Kik</legend>
+							<textarea class="container" type="textbox" placeholder="Kik Username..."></textarea>
+						</fieldset>
+						<br ></>
+						<fieldset class="container">
+							<legend class="container" style="radial">Character</legend>
+							<textarea class="container" type="textbox" placeholder="Character's Name..."></textarea>
+						</fieldset>
+						<br ></>
+						<fieldset class="container">
+							<legend class="container" style="radial">Origin</legend>
+							<textarea class="container" type="textbox" placeholder="ie = Anime, Film, Manga, Newspaper, Original Character (OC), TV, Video Game, etc."></textarea>
+						</fieldset>
+						<br ></>
+						<fieldset class="container">
+							<legend class="container" style="radial">RP</legend>
+							<textarea class="container" type="textbox" placeholder="Role Play System..."></textarea>
+						</fieldset>
+						<br ></>
+						<fieldset class="container">
+							<legend class="container" style="radial">Type</legend>
+							<textarea class="container" type="textbox" placeholder="Alien, Human, Majin, Saiyan, Spirit, etc...."></textarea>
+						</fieldset>
+						<br ></>
+						<fieldset class="container">
+							<legend class="container" style="radial">Aura</legend>
+							<textarea class="container" type="textbox" placeholder="Favorite Color(s)..."></textarea> &nbsp;(#)
+						</fieldset>
+						<br ></>
+					</fieldset>
+					<br ></>
+					<p id="Complete">COMPLETE!</p>
+					<button type="button" onclick="WTF()">Complete</button>
+					<div>
+						<script>
+							function WTF() {
+								document.getElementById("Complete").innerHTML = alert("WTF! I TOLD YOU THE BUTTON DOES NOT WORK!");
+							}
+						</script>
+						<p>DUE TO BS, THE BUTTON ABOVE DOES NOT WORK BECAUSE THE FORM NEEDS OTHER METHODS TO COLLECT THE DATA AND SEND IT TO THE EMAIL, WHICH THE SYSCUS CURRENTLY DOES NOT HAVE THE ABILITY TO DO SO AT THIS TIME#59 SO, PLEASE DO ONE OF THE TWO METHODS AFTER FILLING OUT THE FORM =</p>
+						<br ></>
+						<p>1. Copy the information and send it to EX or a Vocaloid (preferably through Kik or <a href="TheSYSCUS.RP@GMail.com">SYSCUS E-Mail</a>).</p>
+						<p>2. Screenshot the information then send it to EX or a Vocaloid (preferably though Kik or <a href="TheSYSCUS.RP@GMail.com">SYSCUS E-Mail</a>).</p>
+					</div>
+			</fieldset>
+		</form>
+	</body>
+<!-- remove the following three lines to stop redirecting to the help page -->
+</html>
